@@ -1,0 +1,72 @@
+@import './reset.scss';
+@import './variables.scss';
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-size: 17px;
+}
+
+body {
+  font-family: $Roboto;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.bold_desc {
+  font-weight: 600;
+}
+
+.base-selector {
+  width: 150px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 10px;
+  outline: none;
+}
+
+.base-search {
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.text-white {
+  color: #fff;
+}
